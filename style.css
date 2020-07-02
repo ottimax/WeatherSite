@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat', sans-serif;
+}
+
+body{
+    background-image: url(sfondo.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 15px; 
+}
+
+.search-box{
+    border: none;
+    outline: none;
+    width: 220px;
+    height: 40px;
+    padding: 15px 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px 0 10px 0;
+    border-bottom: 3px solid #8179ec;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.5s ease-in-out;
+
+}
+
+.search-box:focus{
+    background-color: white;
+    border-bottom: 4px solid #8179ec;
+    width: 260px;
+    height: 50px;
+    border-radius: 0 10px 0 10px;
+}
+
+.zone{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.zone p{
+    color: white;
+}
+
+.city{
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.weather-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.weather-info p{
+   color: white;
+}
+
+.temperature{
+    margin-top: 33px;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.status{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.6);
+}
+
+.temp-media{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.footer-div{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.social-footer a img{
+width: 60px;
+height: 60px;
+padding: 5px;
+}
+
+
+footer h5{
+color: #ddd;
+}
